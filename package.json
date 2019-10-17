@@ -1,6 +1,6 @@
 {
   "name": "js-mom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple library for a common Mom",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
