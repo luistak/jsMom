@@ -1,0 +1,31 @@
+{
+  "name": "js-mom",
+  "version": "1.0.0",
+  "description": "A simple library for a common Mom",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn run build",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luistak/jsMom.git"
+  },
+  "author": "luis.takahashi",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/luistak/jsMom/issues"
+  },
+  "homepage": "https://github.com/luistak/jsMom#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.4"
+  }
+}
